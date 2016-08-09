@@ -7,3 +7,12 @@ For example:
 ```
 #!c:/Users/barraud/AppData/Local/Programs/Python/Python35/python.exe
 ```
+Open the git bash at the py location
+To compile the py, enter
+chmod +x <name>.py
+To run the script, enter
+./<name>.py
+
+# File management using the with statement
+## file-using-with.py
+
