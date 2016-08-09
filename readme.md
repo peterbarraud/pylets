@@ -17,3 +17,4 @@ To run the script, enter
 ## file-using-with.py
 
 # XML handling using [xml.etree.ElementTree](https://www.google.com){:target="_blank"}
+<a href="http://example.com/" target="_blank">example</a>
