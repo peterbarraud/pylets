@@ -16,5 +16,5 @@ To run the script, enter
 # File management using the with statement
 ## file-using-with.py
 
-# XML handling using [xml.etree.ElementTree](https://www.google.com){:target="_blank"}
-<a href="http://example.com/" target="_blank">example</a>
+# XML handling using [xml.etree.ElementTree](https://docs.python.org/2/library/xml.etree.elementtree.html)
+## xml-tree.xml
