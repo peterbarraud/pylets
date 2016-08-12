@@ -1,3 +1,4 @@
 *.log
 read-helpx-sitemap.py
 read-dita-xml.py
+remove-dita-attrib.py
