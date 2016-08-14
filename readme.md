@@ -11,11 +11,15 @@ Open the git bash at the py location
 
 To compile the py, enter
 
-```chmod +x <name>.py```
+```
+chmod +x <name>.py
+```
 
 To run the script, enter
 
-```./<name>.py```
+```
+./<name>.py
+```
 
 # File management using the with statement
 ```
