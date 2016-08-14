@@ -10,13 +10,13 @@ For example:
 Open the git bash at the py location
 
 To compile the py, enter
-
+```
 chmod +x <name>.py
-
+```
 To run the script, enter
-
+```
 ./<name>.py
-
+```
 # File management using the with statement
 ## file-using-with.py
 More info at, [Understanding Python's "with" statement](http://effbot.org/zone/python-with-statement.htm)
