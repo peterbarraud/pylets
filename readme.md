@@ -10,16 +10,25 @@ For example:
 Open the git bash at the py location
 
 To compile the py, enter
-```
-chmod +x <name>.py
-```
+
+```chmod +x <name>.py```
+
 To run the script, enter
-```
-./<name>.py
-```
+
+```./<name>.py```
+
 # File management using the with statement
-## file-using-with.py
+```
+file-using-with.py
+```
 More info at, [Understanding Python's "with" statement](http://effbot.org/zone/python-with-statement.htm)
 
 # XML handling using [xml.etree.ElementTree](https://docs.python.org/2/library/xml.etree.elementtree.html)
-## xml-tree.xml
+```
+xml-tree.xml
+```
+
+# User input
+```
+take-user-input.py
+```
