@@ -37,3 +37,7 @@ xml-tree.xml
 ```
 take-user-input.py
 ```
+# Manage files
+```
+manage-files.py
+```
