@@ -4,15 +4,16 @@ import os
 
 # make windows path for py
 def manageWindowsPath(folderpath):
-    folderpath = folderpath.replace("\\","/")
-    if folderpath.endswith("/") == False :
-        folderpath = folderpath + "/"
-    return folderpath
+    if os.path.isdir (folderpath):
+        folderpath = folderpath.replace("\\","/")
+        if folderpath.endswith("/") == False :
+            folderpath = folderpath + "/"
+        return folderpath
+    else :
+        raise Exception ("Invalid folder Path")
 
 
-folderpath = manageWindowsPath(input ("Enter folder path: "))
-
-if os.path.isdir (folderpath):
-    print (folderpath)
-else :
-    print ("Invalid folder Path")
+try :
+    folderpath = manageWindowsPath(input ("Enter folder path: "))
+except Exception as ex :
+    print (ex)
