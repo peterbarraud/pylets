@@ -14,4 +14,4 @@ print(int("3") + 3)
 even_nums = [x*2 for x in range(10)]
 print(math.fsum(even_nums))
 
-print (math.pow(2,3))
+print(math.pow(2, 3))

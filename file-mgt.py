@@ -10,7 +10,7 @@ def read_by_line():
 # using maps and list comprehensions
 # remember, in 3.x maps return iterables (not lists)
 # list comprehensions are, of course, lists
-def read_all_lines() :
+def read_all_lines():
     with open("files-list.log", "r") as f:
         # using list comprehensions
         lines = [line.rstrip() for line in f]

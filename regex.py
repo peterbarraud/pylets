@@ -18,7 +18,7 @@ subs = re.sub("\d+?$", "456", string)
 print(subs)
 
 # or use lambda in the repl. the arg is the group object
-subs = re.sub("(\=)(\d+?)$", lambda x : x.group(1) + "eq", string)
+subs = re.sub("(=)(\d+?)$", lambda x: x.group(1) + "eq", string)
 print(subs)
 # and wherever a lambda works, you can also use a function pointer
 

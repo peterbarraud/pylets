@@ -22,6 +22,7 @@ To run the script, enter
 ./<name>.py
 ```
 
+
 # Code conventions
 1. The #! statement must be at the very first line
 2. <b>import statement</b> There must be a blank line between the first line and the
@@ -30,6 +31,7 @@ To run the script, enter
 5. <b>Function call</b>: There must be a single space after a comma: ```print('something, 'something else')```
 6. <b>Function names</b>: use underscore instead of camel case for variable/function names: ```add_num``` instead of ```addNum``` or even ```addnum```
 7. <b>Semi colon for flow statements</b>: There must be no space before the semi colon in flow statments: ```if condition:``` instead of ```if condition :```
+8. The last line of a file must be a blank line. But only one blank line
 
 # Other useful libraries
 [Config parser](https://docs.python.org/3/library/configparser.html)
