@@ -22,22 +22,19 @@ To run the script, enter
 ./<name>.py
 ```
 
-# File management using the with statement
+# Code conventions
+1. The #! statement must be at the very first line
+2. ```import statement``` There must be a blank line between the first line and the
+3. ```def statement``` There must be at least two blank lines before a def statement
+4. There must be no space between a function call and the opening bracket
 ```
-file-using-with.py
+print('something')
 ```
-More info at, [Understanding Python's "with" statement](http://effbot.org/zone/python-with-statement.htm)
+5. 
 
-# XML handling using [xml.etree.ElementTree](https://docs.python.org/2/library/xml.etree.elementtree.html)
-```
-xml-tree.xml
-```
-
-# User input
-```
-take-user-input.py
-```
-# Manage files
-```
-manage-files.py
-```
+# Other useful libraries
+[Config parser](https://docs.python.org/3/library/configparser.html)
+[godaddy Django hosting](https://in.godaddy.com/pro/one-click-installation/django)
+[Eclipse setup](http://www.vogella.com/tutorials/Python/article.html)
+[List comprehensions](http://www.secnetix.de/olli/Python/list_comprehensions.hawk)
+[Collections library](https://docs.python.org/2/library/collections.html)
