@@ -28,6 +28,7 @@ To run the script, enter
 3. ```def statement``` There must be at least two blank lines before a def statement
 4. There must be no space between a function call and the opening bracket: ```print('something')```
 5. In a function call, there must be a single space after a comma: ```print('something, 'something else')```
+6. Function names: use underscore instead of camel case for variable/function names: ```add_num``` instead of ```addNum``` or even ```addnum```
 
 
 # Other useful libraries
