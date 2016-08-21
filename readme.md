@@ -24,12 +24,12 @@ To run the script, enter
 
 # Code conventions
 1. The #! statement must be at the very first line
-2. ```import statement``` There must be a blank line between the first line and the
-3. ```def statement``` There must be at least two blank lines before a def statement
+2. <b>import statement</b> There must be a blank line between the first line and the
+3. <b>def statement</b> There must be at least two blank lines before a def statement
 4. There must be no space between a function call and the opening bracket: ```print('something')```
-5. In a function call, there must be a single space after a comma: ```print('something, 'something else')```
+5. <b>Function call</b>: There must be a single space after a comma: ```print('something, 'something else')```
 6. <b>Function names</b>: use underscore instead of camel case for variable/function names: ```add_num``` instead of ```addNum``` or even ```addnum```
-
+7. <b>Semi colon for flow statements</b>: There must be no space before the semi colon in flow statments: ```if condition:``` instead of ```if condition :```
 
 # Other useful libraries
 [Config parser](https://docs.python.org/3/library/configparser.html)

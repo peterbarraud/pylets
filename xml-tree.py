@@ -3,29 +3,29 @@ import xml.etree.ElementTree as eTree
 tree = eTree.parse('C:/Users/barraud/Documents/tech-sessions/sitemap.xml')
 root = tree.getroot()
 
-#findall: get all nodes at a path
+# findall: get all nodes at a path
 countries = root.findall(".//country")
 
-for country in countries :
+for country in countries:
     # find: get a node attrib
-    print (country.attrib["name"])
+    print(country.attrib["name"])
     # get the first (or only) node at a path
     rank = country.find("./rank")
-    #tag: get the name of a node
-    print (rank.tag)
-    #text: get the inner text of a node
-    print (rank.text)
+    # tag: get the name of a node
+    print(rank.tag)
+    # text: get the inner text of a node
+    print(rank.text)
 
-    #getchildren: all children of a node
+    # getchildren: all children of a node
     for iteminCountry in country.getchildren():
-        print (iteminCountry)
+        print(iteminCountry)
 
-    #iterate attribs
-    for countryattrib in country.attrib :
-        print (countryattrib)
+    # iterate attribs
+    for countryattrib in country.attrib:
+        print(countryattrib)
 
 
-print ("all done")
+print("all done")
 
 # Important notes:
 # If you're getting the parse error for characters like &nbsp, you need to exclude these in the XML parser
