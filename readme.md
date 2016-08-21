@@ -26,11 +26,9 @@ To run the script, enter
 1. The #! statement must be at the very first line
 2. ```import statement``` There must be a blank line between the first line and the
 3. ```def statement``` There must be at least two blank lines before a def statement
-4. There must be no space between a function call and the opening bracket
-```
-print('something')
-```
-5.
+4. There must be no space between a function call and the opening bracket: ```print('something')```
+5. In a function call, there must be a single space after a comma: ```print('something, 'something else')```
+
 
 # Other useful libraries
 [Config parser](https://docs.python.org/3/library/configparser.html)
