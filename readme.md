@@ -30,11 +30,15 @@ To run the script, enter
 ```
 print('something')
 ```
-5. 
+5.
 
 # Other useful libraries
 [Config parser](https://docs.python.org/3/library/configparser.html)
+
 [godaddy Django hosting](https://in.godaddy.com/pro/one-click-installation/django)
+
 [Eclipse setup](http://www.vogella.com/tutorials/Python/article.html)
+
 [List comprehensions](http://www.secnetix.de/olli/Python/list_comprehensions.hawk)
+
 [Collections library](https://docs.python.org/2/library/collections.html)
