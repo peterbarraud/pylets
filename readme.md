@@ -32,6 +32,7 @@ To run the script, enter
 6. <b>Function names</b>: use underscore instead of camel case for variable/function names: ```add_num``` instead of ```addNum``` or even ```addnum```
 7. <b>Semi colon for flow statements</b>: There must be no space before the semi colon in flow statments: ```if condition:``` instead of ```if condition :```
 8. The last line of a file must be a blank line. But only one blank line
+See also: [Intermezzo: Coding Style](https://docs.python.org/2/tutorial/controlflow.html#intermezzo-coding-style)
 
 # Other useful libraries
 [Config parser](https://docs.python.org/3/library/configparser.html)
